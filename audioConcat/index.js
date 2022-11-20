@@ -2,7 +2,7 @@ const audioconcat = require('audioconcat');
 const ffmpegInstaller = require('@ffmpeg-installer/ffmpeg');
 const ffmpeg = require('fluent-ffmpeg');
 ffmpeg.setFfmpegPath(ffmpegInstaller.path);
-const { createMovie } = require('../createMovie/index')
+const { createMovie } = require('../createMovie')
 
 module.exports.concatAudio = (songs) => {
   audioconcat(songs)

@@ -4,9 +4,15 @@
     "@ffprobe-installer/ffprobe": "^1.4.1",
     "audioconcat": "^0.1.4",
     "crunker": "^2.0.0",
+    "dotenv": "^16.0.3",
     "ffmpeg": "^0.0.4",
     "fluent-ffmpeg": "^2.1.2",
     "get-audio-duration": "^3.1.1",
+    "puppeteer": "^19.2.2",
+    "puppeteer-core": "^19.2.2",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-adblocker": "^2.13.5",
+    "puppeteer-extra-plugin-stealth": "^2.11.1",
     "videoshow": "^0.1.12"
   }
 }
